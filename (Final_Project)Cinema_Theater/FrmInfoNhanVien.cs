@@ -17,7 +17,6 @@ namespace _Final_Project_Cinema_Theater
         public FrmInfoNhanVien()
         {
             InitializeComponent();
-
         }
         //Lưu giá trị hiện lên ở TxtID và TxtTen
         public static string idNV;
@@ -171,7 +170,7 @@ namespace _Final_Project_Cinema_Theater
                 }
             }
         }
-
+        //Xoá nhân viên
         private void toolStripButton3_Click(object sender, EventArgs e)
         {
             try
@@ -217,7 +216,7 @@ namespace _Final_Project_Cinema_Theater
                 connDB.conn.Close();
             }
         }
-
+        //Chuyển sang form tài khoản
         private void button5_Click(object sender, EventArgs e)
         {
             idNV = TxtID.Text;
@@ -256,7 +255,7 @@ namespace _Final_Project_Cinema_Theater
                 FrmInfoNhanVien_Load(sender, e);
             }
         }
-
+        //Reset lại các textbox và ảnh
         private void toolStripButton2_Click(object sender, EventArgs e)
         {
             //Sửa thông tin nhân viên bao gồm HoTen, NgaySinh, DiaChi, SDT, CCCD, HinhAnh
