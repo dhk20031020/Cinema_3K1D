@@ -18,7 +18,7 @@ namespace _Final_Project_Cinema_Theater
         {
             InitializeComponent();
         }
-        //Dùng class SQLCONNECTION để kết nối database
+        //Dùng class SQLCONNECTION để kết nối database   
         SQLCONNECTION connDB = new SQLCONNECTION();
         SQLCONNECTION cmd = new SQLCONNECTION();
         SQLCONNECTION dta = new SQLCONNECTION();
@@ -92,7 +92,7 @@ namespace _Final_Project_Cinema_Theater
                 }
             }
         }
-
+        //danh sach khach hang khi click vao 1 cell 
         private void DsKhachHang_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             // Khi click vào 1 cell trong DsKhachHang thì hiện thông tin lên các textbox
