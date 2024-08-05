@@ -18,7 +18,7 @@ namespace _Final_Project_Cinema_Theater
         {
             InitializeComponent();
         }
-        //Dùng class SQLCONNECTION để kết nối database 
+        //Dùng class SQLCONNECTION để kết nối database  
         SQLCONNECTION connDB = new SQLCONNECTION();
         SQLCONNECTION cmd = new SQLCONNECTION();
         SQLCONNECTION dta = new SQLCONNECTION();

@@ -18,7 +18,7 @@ namespace _Final_Project_Cinema_Theater
         {
             InitializeComponent();
         }
-        //Lưu giá trị hiện lên ở TxtID và TxtTen 
+        //Lưu giá trị hiện lên ở TxtID và TxtTen  
         public static string idNV;
         public static string nameNV;
         //Dùng class SQLCONNECTION để kết nối database
