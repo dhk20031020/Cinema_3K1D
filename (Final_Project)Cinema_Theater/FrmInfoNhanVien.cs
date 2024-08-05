@@ -21,7 +21,7 @@ namespace _Final_Project_Cinema_Theater
         //Lưu giá trị hiện lên ở TxtID và TxtTen  
         public static string idNV;
         public static string nameNV;
-        //Dùng class SQLCONNECTION để kết nối database
+        //Dùng class SQLCONNECTION để kết nối database 
         SQLCONNECTION connDB = new SQLCONNECTION();
         SQLCONNECTION cmd = new SQLCONNECTION();
         SQLCONNECTION dta = new SQLCONNECTION();
