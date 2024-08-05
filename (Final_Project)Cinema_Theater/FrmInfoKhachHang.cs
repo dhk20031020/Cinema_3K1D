@@ -92,7 +92,7 @@ namespace _Final_Project_Cinema_Theater
                 }
             }
         }
-        //danh sach khach hang
+        //danh sach khach hang khi click vao 1 cell 
         private void DsKhachHang_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             // Khi click vào 1 cell trong DsKhachHang thì hiện thông tin lên các textbox

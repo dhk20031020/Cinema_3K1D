@@ -255,7 +255,7 @@ namespace _Final_Project_Cinema_Theater
                 FrmInfoNhanVien_Load(sender, e);
             }
         }
-        //Reset lại các textbox và ảnh
+        //Reset lại các textbox và ảnh 
         private void toolStripButton2_Click(object sender, EventArgs e)
         {
             //Sửa thông tin nhân viên bao gồm HoTen, NgaySinh, DiaChi, SDT, CCCD, HinhAnh
