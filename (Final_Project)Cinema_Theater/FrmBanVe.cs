@@ -94,7 +94,7 @@ namespace datve11
             int column = int.Parse(ghe.Text.Substring(2));
             string loaiGhe = GetLoaiGhe(row, column);
 
-            // Kiểm tra loại ghế được chọn
+            // kiểm tra loại ghế được chọn có hợp lệ hay không
             if (LoaiGheHopLe(loaiGhe))
             {
                 if (selectedSeats[ghe] == false)
@@ -120,7 +120,7 @@ namespace datve11
                     }
                 }
 
-                // Cập nhật label hiển thị điểm cộng
+                // Cập nhật điểm cộng lên label
                 lbdiemcong.Text = plusPoint.ToString();
                 //Lưu lại điểm cộng trong database trong bảng KhachHang cột DiemTichLuy bằng cách lấy điểm từ database cộng thêm điểm cộng mới
                 string sql = "UPDATE KhachHang SET DiemTichLuy = DiemTichLuy + @DiemTichLuy WHERE HoTen = @HoTen";
@@ -206,7 +206,7 @@ namespace datve11
             }
         }
 
-        // Phương thức phục hồi màu ban đầu của ghế
+        // Phục hồi màu ban đầu của ghế
         private void RestoreSeatColor(Button ghe)
         {
             char row = ghe.Text[0];
